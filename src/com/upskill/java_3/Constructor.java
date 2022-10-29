@@ -30,6 +30,7 @@ public class Constructor extends MethodType{
 		System.out.println(obj.b);
 		System.out.println(obj.c);
 		System.out.println("Enter your number");
+		System,out.println("Enter your phone number");
 		
 								
 	}
