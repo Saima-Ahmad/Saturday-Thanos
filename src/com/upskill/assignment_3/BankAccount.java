@@ -22,12 +22,12 @@ if( password==12345)
 if(choice==1)
 {
 	System.out.println("Enter Your Amount");
-	double amount A=new Scanner(System.in);
+	double  Scanner A = new Scanner(System.in);
 	A=A.nextInt();
 	
 }
 System.out.println("Enter your Amount");
-	BankAccount( money);
+	BankAccount(money);
 	{
 	double depositmoney;
 	System.out.println(balance + depositmoney);

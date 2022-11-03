@@ -15,7 +15,7 @@ package com.upskill.java_3;
 import java.util.Scanner;
 
 public class Assignment_bank {
- String accname= "Savings";
+ String accname= "Checking";
 float amount;
 boolean bool;
 static Scanner s= new Scanner(System.in);
@@ -40,9 +40,11 @@ void Problem1(String accname){
 		}
 		}
 }
+		public class Checking{
 		
 		
-		
+		private Object amount;
+
 		void deposit(float amount){
 			this.amount=this.amount+amount;
 			System.out.println("new amount after withdrawal:"+ this.amount);
